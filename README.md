@@ -37,7 +37,7 @@
  # Protótipo
  
 
- Como primeiro versão do protótipo, foi desenvolvida uma Home com alguns botões, um campo de texto e uma ImageView. Focando mais em uma experiência divertida de ver vários emojis e procurar avatars.
+ Como primeira versão do protótipo, foi desenvolvida uma Home com alguns botões, um campo de texto e uma ImageView. Focando mais em uma experiência divertida de ver vários emojis e procurar avatars.
 
   ​
 
