@@ -65,8 +65,10 @@ class HomeViewController: BaseViewController {
 
 extension HomeViewController: HomeViewDelegate {
     func searchPressed() {
-        viewModel.getAvatar(username: homeView.searchTextField.text ?? "")
-        self.view.endEditing(true)
+        if let text = homeView.searchTextField.text, !text.isEmpty {
+            viewModel.getAvatar(username: text)
+            self.view.endEditing(true)
+        }
     }
     
     func emojisListPressed() {

@@ -33,6 +33,7 @@ class HomeView: UIView {
         button.setTitle("Random Emoji", for: .normal)
         button.addTarget(self, action: #selector(randomEmojiPressed), for: .touchUpInside)
         button.backgroundColor = .gray
+        
         return button
     }()
     
@@ -42,6 +43,7 @@ class HomeView: UIView {
         button.setTitle("Emojis List", for: .normal)
         button.backgroundColor = .gray
         button.addTarget(self, action: #selector(emojisListPressed), for: .touchUpInside)
+        
         return button
     }()
     
@@ -51,6 +53,7 @@ class HomeView: UIView {
         button.setTitle("Avatars List", for: .normal)
         button.backgroundColor = .gray
         button.addTarget(self, action: #selector(avatarsListPressed), for: .touchUpInside)
+        
         return button
     }()
     
@@ -60,6 +63,7 @@ class HomeView: UIView {
         button.setTitle("Apple Repos", for: .normal)
         button.backgroundColor = .gray
         button.addTarget(self, action: #selector(appleReposPressed), for: .touchUpInside)
+        
         return button
     }()
     
@@ -78,7 +82,6 @@ class HomeView: UIView {
         textField.backgroundColor = .white
         textField.setLeftIcon(UIImage(named: "search") ?? UIImage())
         
-        
         return textField
     }()
     
@@ -88,6 +91,7 @@ class HomeView: UIView {
         button.setTitle("Search", for: .normal)
         button.backgroundColor = .gray
         button.addTarget(self, action: #selector(searchPressed), for: .touchUpInside)
+        
         return button
     }()
     

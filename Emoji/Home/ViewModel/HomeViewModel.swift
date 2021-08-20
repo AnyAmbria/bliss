@@ -61,7 +61,6 @@ class HomeViewModel {
             self.randomDBEmoji = emojisDB.randomElement()?.url
             self.errorList.value = false
         }
-        
     }
     
     func getAvatar(username: String) {
