@@ -11,6 +11,7 @@
 - MacOs versão -> Big Sur (11.2.3)
 
 ​
+
 # Bibliotecas / abstrações usadas:
 
 
@@ -20,9 +21,10 @@
 
 - Arquitetura: MVVM-C (Model-View-ViewModel com coordinator para cuidar da navegação entre telas)
 
-
+​
 
 # Passos para clonar e visualizar o projeto.
+
 
  - Clone o projeto em seu Mac.
 
@@ -33,15 +35,16 @@
 ​
 
  # Protótipo
+ 
 
- Como primeiro versão do protótipo, foi desenvolvida uma Home com alguns botões, um campo de texto e uma ImageView. Focando mais em uma experiência divertida de ver vários emojis e procurar avatars.
+ Como primeira versão do protótipo, foi desenvolvida uma Home com alguns botões, um campo de texto e uma ImageView. Focando mais em uma experiência divertida de ver vários emojis e procurar avatars.
 
-
-  
+  ​
 
 # Ideias para próximas features
 
-- ​Implementar paginação na tela do “Apple Repos”
+
+- Implementar paginação na tela do “Apple Repos”
 
 - Melhorar as tratativas de erros e telas vazias, assim como criar as telas de loading para melhorar a experiencia do usuário.
 
@@ -62,6 +65,6 @@
 
 - Foi utilizado viewCode nativo para a construção dos layouts, afim de deixar o projeto mais rápido e evitar conflitos de merge quando ocorrer a evolução do protótipo.
 
-- Foi utilizado uma classe chamada Bindable que implementa uma das partes mais legais do RxSwift: Observables, mas sem a necessidade de importar um framework tão grande e poderoso, mantendo um projeto pequeno limpo e viável para entregas com no prazo menor.
+- Foi utilizado uma classe chamada Bindable que implementa uma das partes mais legais do RxSwift: Observables, mas sem a necessidade de importar um framework tão grande e poderoso, mantendo um projeto pequeno limpo e viável para entregas com um prazo menor.
 
 
